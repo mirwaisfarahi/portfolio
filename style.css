@@ -1,46 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
-body
-{
-    /* min-height: 100vh; */
+body {
+  /* min-height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.container
-{
+.container {
   height: 718px;
   width: 375px;
   border: 1px solid #ccc;
   font-family: "Poppins", sans-serif;
-  background: #FFFFFF;
+  background: #fff;
 }
 
-.navbar
-{
+.navbar {
   display: flex;
   justify-content: space-between;
   margin: 25px;
 }
 
-.navbar a
-{
+.navbar a {
   color: #6070ff;
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
 }
 
-.menu-line
-{
+.menu-line {
   width: 15px;
   margin-bottom: 3px;
   border: 1px solid #6070ff;
 }
 
-menu
-{
+menu {
   background-image: url("../images/background.svg");
   background-repeat: no-repeat;
   display: flex;
@@ -51,41 +45,35 @@ menu
 }
 
 section h1,
-p
-{
-  color: #172B4D;
+p {
+  color: #172b4d;
 }
 
-section h1
-{
+section h1 {
   font-size: 40px;
   font-weight: bold;
   line-height: 52px;
   margin: 0;
 }
 
-section p
-{
+section p {
   text-justify: auto;
   margin-top: 5px;
 }
 
-section .contact h3
-{
+section .contact h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
 
-section .contact a
-{
+section .contact a {
   display: inline-block;
   margin-right: 15px;
   list-style-type: none;
 }
 
-section .contact a:hover
-{
-  opacity: .5;
+section .contact a:hover {
+  opacity: 0.5;
 }
