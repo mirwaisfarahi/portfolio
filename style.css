@@ -68,12 +68,17 @@ section .contact h3 {
   color: #7f8cff;
 }
 
-section .contact a {
-  display: inline-block;
-  margin-right: 15px;
-  list-style-type: none;
+section .contact ul {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
 }
 
-section .contact a:hover {
+section .contact ul li {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+section .contact li a:hover {
   opacity: 0.5;
 }
