@@ -61,15 +61,20 @@ section p {
     margin-top: 5px;
 }
 
-section .contact a {
-    display: inline-block;
-    margin-right: 15px;
-    list-style-type: none;
-}
-
 section .contact h3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #7F8CFF;
 }
+
+section .contact a {
+    display: inline-block;
+    margin-right: 15px;
+    list-style-type: none;
+}
+
+section .contact a:hover {
+    opacity: .5;
+}
+
