@@ -35,14 +35,19 @@ body {
   border: 1px solid #6070ff;
 }
 
+main {
+  background: #f7f7f7;
+}
+
 .headline {
-  border: 2px solid gray;
   background-image: url("../images/background.svg");
   background-repeat: no-repeat;
+  border-bottom-left-radius: 60px;
+  background-color: white;
   height: 600px;
   margin-top: 3em;
-  padding-left: 25px;
-  padding-right: 25px;
+  margin-bottom: 5em;
+  padding: 0 25px 0 25px;
 }
 
 .headline h1,
@@ -88,7 +93,7 @@ p {
 .works-section {
   display: grid;
   grid-template-columns: 327px;
-  padding: 25px;
+  padding: 0 25px  50px 25px;
 }
 
 .works-section .project {
@@ -97,6 +102,7 @@ p {
   flex-direction: column;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  background-color: #FFFFFF;
 }
 
 .works-section .project img {
@@ -111,13 +117,11 @@ p {
   line-height: 44px;
   color: #172b4d;
   margin: 12px 15px;
-  border: 2px solid mistyrose;
 }
 
 .works-section .project .canopy {
   display: flex;
   justify-content: first baseline;
-  border: 2px solid mistyrose;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -153,7 +157,6 @@ p {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  border: 2px solid mistyrose;
   margin: 0 15px;
 }
 
@@ -161,7 +164,6 @@ p {
   display: flex;
   justify-content: column;
   list-style-type: none;
-  border: 2px solid mistyrose;
   margin: 0 15px;
   padding-left: 0;
 }
@@ -197,11 +199,12 @@ p {
 }
 
 .about {
-  border: 2px solid gray;
   min-height: 100vh;
-  margin-top: 3em;
-  padding-left: 25px;
-  padding-right: 25px;
+  border-top-right-radius: 100px;
+  background: #FFFFFF;
+  margin: 3em 0;
+  padding: 0 25px 0 25px;
+  margin-top: 66px;
 }
 
 .about h1,
@@ -263,7 +266,6 @@ p {
 .about .about-skills {
   display: flex;
   flex-direction: column;
-  border: 2px solid mistyrose;
 }
 
 .about .about-skills #programming-lanuages div {
@@ -300,4 +302,28 @@ p {
 .about .about-skills #programming-lanuages ul p {
   padding-top: 10px;
   padding-left: 20px;
+}
+
+.about .about-skills #programming-frameworks, #skills {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  margin: 0 20px;
+  margin-top: 20px;
+}
+
+.about .about-skills #programming-frameworks img, #skills img {
+  width: 10px;
+  height: 15px;
+  margin: 15px;
+}
+hr {
+  display: flex;
+  justify-content: center;
+  background: #DFE1E6;
+  height: 1px;
+  margin: 0 10px;
 }
