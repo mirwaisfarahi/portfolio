@@ -40,7 +40,7 @@ main {
 }
 
 .headline {
-  background-image: url("../images/background.svg");
+  background-image: url("images/background.svg");
   background-repeat: no-repeat;
   border-bottom-left-radius: 60px;
   background-color: white;
