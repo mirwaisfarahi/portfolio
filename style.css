@@ -58,7 +58,7 @@ p {
   padding-top: 2.5em;
 }
 
-.headline p {
+.headline #intro {
   text-justify: auto;
   margin-top: 5px;
 }
@@ -222,7 +222,7 @@ p {
   margin-top: 5px;
 }
 
-.about h3 {
+.about #h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -235,7 +235,7 @@ p {
   padding-left: 10px;
 }
 
-.about .contact ul li {
+.about .contact #social-media li {
   list-style-type: none;
   padding-right: 30px;
 }
@@ -269,16 +269,10 @@ p {
 .about .about-skills #programming-lanuages div {
   display: flex;
   justify-content: space-between;
-  color: red;
-  border: 2px solid rgb(163, 46, 32);
-}
-
-.about .about-skills #programming-lanuages div {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #000000;
+  color: #000;
   margin: 20px;
 }
 
@@ -298,7 +292,7 @@ p {
   display: flex;
   justify-content: baseline;
   border-radius: 8px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   margin: 5px 0;
   padding: 5px 10px;
 }
