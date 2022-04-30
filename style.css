@@ -102,7 +102,7 @@ p {
   flex-direction: column;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  background-color: #FFFFFF;
+  background-color: #fff;
 }
 
 .works-section .project img {
@@ -201,7 +201,7 @@ p {
 .about {
   min-height: 100vh;
   border-top-right-radius: 100px;
-  background: #FFFFFF;
+  background: #fff;
   margin: 3em 0;
   padding: 0 25px 0 25px;
   margin-top: 66px;
@@ -278,7 +278,7 @@ p {
   margin: 20px;
 }
 
-.about .about-skills #programming-lanuages div img {
+.about .about-skills #programming-lanuages .Languages-img {
   width: 15px;
   height: 10px;
   margin: 15px;
@@ -304,7 +304,8 @@ p {
   padding-left: 20px;
 }
 
-.about .about-skills #programming-frameworks, #skills {
+.about .about-skills #programming-frameworks,
+#skills {
   display: flex;
   justify-content: space-between;
   font-weight: 500;
@@ -315,15 +316,15 @@ p {
   margin-top: 20px;
 }
 
-.about .about-skills #programming-frameworks img, #skills img {
+.about .about-skills .framework-skills {
   width: 10px;
   height: 15px;
   margin: 15px;
 }
+
 hr {
   display: flex;
   justify-content: center;
-  background: #DFE1E6;
-  height: 1px;
+  color: #f6f6f7;
   margin: 0 10px;
 }
