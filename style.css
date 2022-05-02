@@ -161,8 +161,7 @@ p {
 }
 
 .works-section .project .project-tech {
-  display: flex;
-  justify-content: column;
+  
   list-style-type: none;
   margin: 0 15px;
   padding-left: 0;
