@@ -349,6 +349,7 @@ footer {
   padding: 0 25px 0 25px;
 }
 
+<<<<<<< HEAD
 .contact-form #contact-me {
   font-weight: 700;
   font-size: 40px;
@@ -357,6 +358,8 @@ footer {
   color: #fff;
 }
 
+=======
+>>>>>>> c064eca58d61c6fd6e28c1624c1fb6d0f5c5bacf
 .contact-form #contact-text {
   text-align: center;
   font-weight: 400;
@@ -401,6 +404,7 @@ textarea {
   border-radius: 8px;
 }
 
+<<<<<<< HEAD
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   font-family: "Poppins", sans-serif;
@@ -429,3 +433,5 @@ textarea {
   font-size: 17px;
   line-height: 20px;
 }
+=======
+>>>>>>> c064eca58d61c6fd6e28c1624c1fb6d0f5c5bacf
