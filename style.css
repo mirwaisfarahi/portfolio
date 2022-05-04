@@ -349,3 +349,34 @@ footer {
   padding: 0 25px 0 25px;
 }
 
+.contact-form #contact-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  margin-top: 0;
+}
+
+.contact-form #form-data {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-form form .input-data + .input-data {
+  margin-top: 15px;
+}
+
+.contact-form input,
+textarea {
+  font: 17px "Poppins", sans-serif;
+  box-sizing: border-box;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 327px;
+  height: 48px;
+}
+
+.contact-form textarea {
+  height: 170px;
+}
