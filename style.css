@@ -349,7 +349,6 @@ footer {
   padding: 0 25px 0 25px;
 }
 
-<<<<<<< HEAD
 .contact-form #contact-me {
   font-weight: 700;
   font-size: 40px;
@@ -358,8 +357,6 @@ footer {
   color: #fff;
 }
 
-=======
->>>>>>> c064eca58d61c6fd6e28c1624c1fb6d0f5c5bacf
 .contact-form #contact-text {
   text-align: center;
   font-weight: 400;
@@ -431,4 +428,12 @@ textarea {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
+}
+
+footer .footer-line {
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
+  border: 1px solid #0d151e;
 }
