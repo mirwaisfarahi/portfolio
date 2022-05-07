@@ -1,4 +1,4 @@
-@media (min-width: 801px) {
+@media (min-width: 768px) {
   .row-reverse {
     flex-direction: row-reverse;
   }
