@@ -125,7 +125,7 @@ p {
   padding-top: 15px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 767px) {
   .works-section .project .work-details {
     min-height: 40vh;
   }
