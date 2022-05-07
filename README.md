@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet) 
 
-# Portfolio: mobile version
+# Portfolio: Mobile and Desktop Version
 
 > This is a HTML/CSS based portfolio mobile version template. The template can be used as a portfolio to show your profile and achievments. 
 

@@ -19,13 +19,11 @@ body {
 }
 
 .container {
-  min-height: 100vh;
-  width: 375px;
-  border: 1px solid #ccc;
   font-family: "Poppins", sans-serif;
   background: #fff;
   font-style: normal;
-  padding-top: 20px;
+  padding: 20px 0 0 0;
+  justify-content: center;
 }
 
 .navbar {
@@ -38,6 +36,10 @@ body {
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
+}
+
+.navbar .nav-list {
+  display: none;
 }
 
 .menu-line {
@@ -53,6 +55,7 @@ main {
 .headline {
   background-image: url("images/background.svg");
   background-repeat: no-repeat;
+  background-size: cover;
   border-bottom-left-radius: 60px;
   background-color: white;
   height: 610px;
@@ -66,7 +69,7 @@ p {
   color: #172b4d;
 }
 
-.headline h1 {
+.headline > h1 {
   font-size: 40px;
   font-weight: bold;
   line-height: 52px;
@@ -79,7 +82,7 @@ p {
   margin-top: 5px;
 }
 
-.headline h3 {
+.headline > h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -89,6 +92,7 @@ p {
 .headline .contact ul {
   align-items: center;
   padding-left: 0;
+  margin-top: 0;
 }
 
 .headline .contact ul li {
@@ -102,21 +106,30 @@ p {
 
 .works-section {
   display: grid;
-  grid-template-columns: 327px;
+  grid-template-columns: 100%;
   padding: 0 25px 66px 25px;
 }
 
 .works-section .project {
   flex-wrap: wrap;
+  height: 100vh;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   background-color: #fff;
+  margin-bottom: 5%;
 }
 
-.works-section .project img {
+.works-section .project .project-img {
+  min-width: 375px;
   align-items: center;
   border-radius: 8px;
   padding-top: 15px;
+}
+
+@media (max-width: 767px) {
+  .works-section .project .work-details {
+    min-height: 40vh;
+  }
 }
 
 .works-section .project h3 {
@@ -129,13 +142,14 @@ p {
 
 .works-section .project .canopy {
   justify-content: first baseline;
-  font-style: normal;
   font-weight: 600;
   font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
   margin: 0 15px;
 }
 
-.works-section .project .canopy img {
+.works-section .project .canopy > img {
   justify-content: baseline;
   width: 10px;
   height: 10px;
@@ -144,19 +158,9 @@ p {
 
 .works-section .project .canopy .title {
   color: #344563;
-  font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-}
-
-.works-section .project .canopy .job,
-.date {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #7a869a;
 }
 
 .works-section .project .project-description {
@@ -170,7 +174,7 @@ p {
 .works-section .project .project-tech {
   justify-content: column;
   list-style-type: none;
-  margin: 0 15px;
+  margin: 25px 15px;
   padding-left: 0;
 }
 
@@ -185,6 +189,7 @@ p {
   border-radius: 8px;
   padding: 4px 15px;
   margin-right: 7px;
+  margin-bottom: 5%;
 }
 
 .works-section .project .project-details {
@@ -204,7 +209,6 @@ p {
 }
 
 .about {
-  min-height: 100vh;
   border-top-right-radius: 100px;
   background: #fff;
   margin: 3em 0;
@@ -331,15 +335,17 @@ p {
 }
 
 footer {
+  background-image: url("images/contact-form-background.png");
+  background-repeat: no-repeat;
   background-color: #6070ff;
+  background-size: cover;
   border-top-left-radius: 100px;
   margin-top: 7em;
+  justify-content: center;
 }
 
 .contact-form {
-  align-items: center;
-  background-image: url("images/contact-form-background.png");
-  background-repeat: no-repeat;
+  justify-content: center;
   height: 750px;
   margin-top: 20px;
   padding: 0 25px 0 25px;
@@ -366,6 +372,8 @@ footer {
 .contact-form #form-data {
   list-style: none;
   padding: 0;
+  justify-content: center;
+  margin-left: 10%;
 }
 
 .contact-form form .input-data + .input-data {
