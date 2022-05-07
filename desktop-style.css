@@ -1,224 +1,224 @@
 @media (min-width: 801px) {
-    .row-reverse {
-        flex-direction: row-reverse;
-    }
+  .row-reverse {
+    flex-direction: row-reverse;
+  }
 
-    .container {
-        padding: 0;
-    }
+  .container {
+    padding: 0;
+  }
 
-    .navbar {
-        position: fixed;
-        align-items: center;
-        width: 80%;
-        justify-content: space-between;
-        margin: 0 10%;
-        padding: 0;
-    }
+  .navbar {
+    position: fixed;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 10%;
+    padding: 0;
+  }
 
-    .navbar .menu {
-        display: none;
-    }
+  .navbar .menu {
+    display: none;
+  }
 
-    .navbar .nav-list {
-        display: flex;
-        align-items: center;
-        list-style-type: none;
-    }
+  .navbar .nav-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
 
-    .navbar .nav-list .list-item a {
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 20px;
-        color: #344563;
-        padding-left: 20px;
-    }
+  .navbar .nav-list .list-item a {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    padding-left: 20px;
+  }
 
-    .headline {
-        min-height: 110vh;
-        background-image: url("images/desktop-background.svg");
-        background-size: contain;
-        height: 100vh;
-    }
+  .headline {
+    min-height: 110vh;
+    background-image: url("images/desktop-background.svg");
+    background-size: contain;
+    height: 100vh;
+  }
 
-    .headline>h1 {
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 60px;
-        letter-spacing: 0.37px;
-        margin: 10% 15% 0 15%;
-    }
+  .headline > h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    margin: 10% 15% 0 15%;
+  }
 
-    .headline>p {
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 28px;
-        margin: 0 15% 2% 15%;
-    }
+  .headline > p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0 15% 2% 15%;
+  }
 
-    .headline>h3 {
-        margin: 2% 15% 0 15%;
-    }
+  .headline > h3 {
+    margin: 2% 15% 0 15%;
+  }
 
-    .headline .contact {
-        margin: 1% 15% 0 15%;
-    }
+  .headline .contact {
+    margin: 1% 15% 0 15%;
+  }
 
-    .works-section {
-        grid-template-columns: 80%;
-        grid-template-rows: auto; 
-        justify-content: center;
-        margin: 5%;
-        padding: 0;
-    }
+  .works-section {
+    grid-template-columns: 80%;
+    grid-template-rows: auto;
+    justify-content: center;
+    margin: 5%;
+    padding: 0;
+  }
 
-    .works-section .project {
-        border-radius: 24px;
-        height: 28.5rem;
-        padding: 1% 0 0 2%;
-    }
+  .works-section .project {
+    border-radius: 24px;
+    height: 28.5rem;
+    padding: 1% 0 0 2%;
+  }
 
-    .works-section .project-2 > .project-img {
-        order: 1;
-    }
+  .works-section .project-2 > .project-img {
+    order: 1;
+  }
 
-    .works-section .project-2 > .work-details {
-        order: 0;
-    }
+  .works-section .project-2 > .work-details {
+    order: 0;
+  }
 
-    .works-section .project .project-img {
-        min-width: 45%;
-        height: auto;
-        padding: 5px 0 0 0;
-        margin-right: 3%;
-    }
+  .works-section .project .project-img {
+    min-width: 45%;
+    height: auto;
+    padding: 5px 0 0 0;
+    margin-right: 3%;
+  }
 
-    .works-section .project h3 {
-        font-size: 40px;
-        line-height: 52px;
-        margin: 10% 0 0 0;
-    }
+  .works-section .project h3 {
+    font-size: 40px;
+    line-height: 52px;
+    margin: 10% 0 0 0;
+  }
 
-    .works-section .project .canopy {
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 24px;
-        margin: 0;
-    }
+  .works-section .project .canopy {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+  }
 
-    .works-section .project .canopy>img {
-        padding: 25px 10px;
-    }
+  .works-section .project .canopy > img {
+    padding: 25px 10px;
+  }
 
-    .works-section .project .canopy .title {
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 24px;
-    }
+  .works-section .project .canopy .title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
 
-    .works-section .project .project-description {
-        width: 70%;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        margin: 3% 0;
-    }
+  .works-section .project .project-description {
+    width: 70%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 3% 0;
+  }
 
-    .works-section .project .project-tech {
-        margin-bottom: 8%;
-        margin-left: 0;
-    }
+  .works-section .project .project-tech {
+    margin-bottom: 8%;
+    margin-left: 0;
+  }
 
-    .works-section .project .project-details {
-        margin: 0;
-    }
+  .works-section .project .project-details {
+    margin: 0;
+  }
 
-    .about {
-        flex-direction: row;
-        justify-content: center;
-        margin: 8% 0;
-        padding: 0;
-    }
+  .about {
+    flex-direction: row;
+    justify-content: center;
+    margin: 8% 0;
+    padding: 0;
+  }
 
-    .about h2 {
-        padding-top: 0;
-    }
+  .about h2 {
+    padding-top: 0;
+  }
 
-    .about .about-myself {
-        width: 25%;
-        margin-right: 5%;
-        margin-top: 5%;
-    }
+  .about .about-myself {
+    width: 25%;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
 
-    .about .about-myself #h3,
-    .about .about-myself .contact {
-        margin: 0;
-    }
+  .about .about-myself #h3,
+  .about .about-myself .contact {
+    margin: 0;
+  }
 
-    .about .about-myself .about-details {
-        max-width: 35%;
-    }
+  .about .about-myself .about-details {
+    max-width: 35%;
+  }
 
-    .about .about-skills {
-        margin-top: 5%;
-        width: 50%;
-    }
+  .about .about-skills {
+    margin-top: 5%;
+    width: 50%;
+  }
 
-    .about .about-skills #skill1>ul {
-        flex-direction: row;
-    }
+  .about .about-skills #skill1 > ul {
+    flex-direction: row;
+  }
 
-    .about .about-skills #skill1>ul li {
-        flex-direction: column;
-        align-items: flex-start;
-        margin: 0 2% 0 0;
-        width: 18%;
-        padding: 0 0 10px 5px;
-    }
+  .about .about-skills #skill1 > ul li {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 2% 0 0;
+    width: 18%;
+    padding: 0 0 10px 5px;
+  }
 
-    #selected,
-    #skill2-img,
-    #skill3-img {
-        float: right;
-        padding-right: 7%;
-    }
+  #selected,
+  #skill2-img,
+  #skill3-img {
+    float: right;
+    padding-right: 7%;
+  }
 
-    footer {
-        background-image: url("images/desktop-contact-form-background.svg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-top: 0;
-    }
+  footer {
+    background-image: url("images/desktop-contact-form-background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+  }
 
-    .contact-form {
-        width: 30%;
-        margin: 0 35%;
-    }
+  .contact-form {
+    width: 30%;
+    margin: 0 35%;
+  }
 
-    .contact-form #contact-me {
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 52px;
-    }
+  .contact-form #contact-me {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
 
-    .contact-form #contact-text {
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 28px;
-    }
+  .contact-form #contact-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
 
-    .contact-form #form-data {
-        margin-left: 0;
-    }
+  .contact-form #form-data {
+    margin-left: 0;
+  }
 
-    .contact-form input,
-    textarea {
-        width: 90%;
-        margin-top: 2%;
-        border-radius: 0;
-    }
+  .contact-form input,
+  textarea {
+    width: 90%;
+    margin-top: 2%;
+    border-radius: 0;
+  }
 
-    footer .footer-line {
-        display: none;
-    }
+  footer .footer-line {
+    display: none;
+  }
 }
