@@ -182,7 +182,13 @@
   }
 
   .works-section .project .project-details {
+    transition-duration: 1000ms;
+    transition-property: background; 
     margin: 0;
+  }
+
+  .works-section .project .project-details:hover {
+    background: #6070FF;
   }
 
   .about {
