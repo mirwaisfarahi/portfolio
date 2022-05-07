@@ -123,13 +123,14 @@
     min-width: 30%;
     justify-content: center;
     align-items: center;
-    padding: 0 10px 0 0;
+    padding: 10px;
+    margin-right: 0;
   }
 
   .works-section .project .work-details {
     flex: 30%;
-    width: 45%;
-    margin: 0;
+    width: 50%;
+    margin: 0 0 0 3%;
     justify-content: center;
     align-items: center;
   }
@@ -137,7 +138,7 @@
   .works-section .project h3 {
     font-size: 40px;
     line-height: 52px;
-    margin: 10% 0 0 0;
+    margin: 10% 0 2% 0;
   }
 
   .works-section .project .canopy {
