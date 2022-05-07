@@ -1,444 +1,443 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .row-direction {
-    flex-direction: row;
+  flex-direction: row;
 }
 
 .col-direction {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 body {
-    background: #f7f7f9;
-    justify-content: center;
-    align-items: center;
+  background: #f7f7f9;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    font-family: "Poppins", sans-serif;
-    background: #fff;
-    font-style: normal;
-    padding: 20px 0 0 0;
-    justify-content: center;
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+  font-style: normal;
+  padding: 20px 0 0 0;
+  justify-content: center;
 }
 
 .navbar {
-    justify-content: space-between;
-    margin: 25px;
+  justify-content: space-between;
+  margin: 25px;
 }
 
 .navbar a {
-    color: #6070ff;
-    font-weight: bold;
-    font-size: 18px;
-    text-decoration: none;
+  color: #6070ff;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .navbar .nav-list {
-    display: none;
+  display: none;
 }
 
 .menu-line {
-    width: 15px;
-    margin-bottom: 3px;
-    border: 1px solid #6070ff;
+  width: 15px;
+  margin-bottom: 3px;
+  border: 1px solid #6070ff;
 }
 
 main {
-    background: #f7f7f7;
+  background: #f7f7f7;
 }
 
 .headline {
-    background-image: url("images/background.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-bottom-left-radius: 60px;
-    background-color: white;
-    height: 610px;
-    margin-top: 3em;
-    margin-bottom: 7em;
-    padding: 0 25px 0 25px;
+  background-image: url("images/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 60px;
+  background-color: white;
+  height: 610px;
+  margin-top: 3em;
+  margin-bottom: 7em;
+  padding: 0 25px 0 25px;
 }
 
 .headline h1,
 p {
-    color: #172b4d;
+  color: #172b4d;
 }
 
-.headline>h1 {
-    font-size: 40px;
-    font-weight: bold;
-    line-height: 52px;
-    margin: 0;
-    padding-top: 2.5em;
+.headline > h1 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 52px;
+  margin: 0;
+  padding-top: 2.5em;
 }
 
 .headline #intro {
-    text-justify: auto;
-    margin-top: 5px;
+  text-justify: auto;
+  margin-top: 5px;
 }
 
-.headline>h3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7f8cff;
+.headline > h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
 }
 
 .headline .contact ul {
-    align-items: center;
-    padding-left: 0;
-    margin-top: 0;
+  align-items: center;
+  padding-left: 0;
+  margin-top: 0;
 }
 
 .headline .contact ul li {
-    list-style-type: none;
-    margin-right: 20px;
+  list-style-type: none;
+  margin-right: 20px;
 }
 
 .headline .contact li a:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .works-section {
-    display: grid;
-    grid-template-columns: 100%;
-    padding: 0 25px 66px 25px;
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 0 25px 66px 25px;
 }
 
 .works-section .project {
-    flex-wrap: wrap;
-    height: 100vh;
-    border: 1px solid #dfe1e6;
-    border-radius: 16px;
-    background-color: #fff;
+  flex-wrap: wrap;
+  height: 100vh;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  background-color: #fff;
 }
 
 .works-section .project .project-img {
-    min-width: 375px;
-    align-items: center;
-    border-radius: 8px;
-    padding-top: 15px;
+  min-width: 375px;
+  align-items: center;
+  border-radius: 8px;
+  padding-top: 15px;
 }
 
 @media (max-width: 800px) {
-    .works-section .project .work-details {
-        min-height: 40vh;
-    }
+  .works-section .project .work-details {
+    min-height: 40vh;
+  }
 }
 
 .works-section .project h3 {
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    color: #172b4d;
-    margin: 12px 15px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 12px 15px;
 }
 
 .works-section .project .canopy {
-    justify-content: first baseline;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 16px;
-    color: #7a869a;
-    margin: 0 15px;
+  justify-content: first baseline;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  margin: 0 15px;
 }
 
-.works-section .project .canopy>img {
-    justify-content: baseline;
-    width: 10px;
-    height: 10px;
-    padding: 15px 10px;
+.works-section .project .canopy > img {
+  justify-content: baseline;
+  width: 10px;
+  height: 10px;
+  padding: 15px 10px;
 }
 
 .works-section .project .canopy .title {
-    color: #344563;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 16px;
+  color: #344563;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
 }
 
 .works-section .project .project-description {
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #344563;
-    margin: 5px 15px 15px 15px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin: 5px 15px 15px 15px;
 }
 
 .works-section .project .project-tech {
-    justify-content: column;
-    list-style-type: none;
-    margin: 25px 15px;
-    padding-left: 0;
+  justify-content: column;
+  list-style-type: none;
+  margin: 25px 15px;
+  padding-left: 0;
 }
 
 .works-section .project .project-tech li {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
-    background: #ebebff;
-    border-radius: 8px;
-    padding: 4px 15px;
-    margin-right: 7px;
-    margin-bottom: 5%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 4px 15px;
+  margin-right: 7px;
+  margin-bottom: 5%;
 }
 
 .works-section .project .project-details {
-    justify-content: center;
-    max-width: 30%;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 10px;
-    border-color: #396df2;
-    font-weight: 500;
-    font-size: 17px;
-    color: #396df2;
-    line-height: 24px;
-    margin: 25px 15px;
-    padding: 10px;
-    text-decoration: none;
+  justify-content: center;
+  max-width: 30%;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 10px;
+  border-color: #396df2;
+  font-weight: 500;
+  font-size: 17px;
+  color: #396df2;
+  line-height: 24px;
+  margin: 25px 15px;
+  padding: 10px;
+  text-decoration: none;
 }
 
 .about {
-    border-top-right-radius: 100px;
-    background: #fff;
-    margin: 3em 0;
-    padding: 0 25px 0 25px;
-    margin-top: 45px;
+  border-top-right-radius: 100px;
+  background: #fff;
+  margin: 3em 0;
+  padding: 0 25px 0 25px;
+  margin-top: 45px;
 }
 
 .about h2,
 p {
-    color: #172b4d;
+  color: #172b4d;
 }
 
 .about h2 {
-    font-size: 40px;
-    font-weight: bold;
-    line-height: 52px;
-    margin: 0;
-    padding-top: 2.5em;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 52px;
+  margin: 0;
+  padding-top: 2.5em;
 }
 
 .about p {
-    text-justify: auto;
-    margin-top: 5px;
+  text-justify: auto;
+  margin-top: 5px;
 }
 
 .about #h3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7f8cff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
 }
 
 .about .contact .social-media {
-    align-items: center;
-    padding-left: 10px;
+  align-items: center;
+  padding-left: 10px;
 }
 
 .about .contact .social-media li {
-    list-style-type: none;
-    padding-right: 30px;
+  list-style-type: none;
+  padding-right: 30px;
 }
 
 .about .contact li a:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .about .contact .about-details {
-    justify-content: center;
-    max-width: 45%;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 10px;
-    border-color: #396df2;
-    padding: 10px 5px;
-    font-weight: 500;
-    font-size: 17px;
-    color: #396df2;
-    line-height: 24px;
-    text-decoration: none;
+  justify-content: center;
+  max-width: 45%;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 10px;
+  border-color: #396df2;
+  padding: 10px 5px;
+  font-weight: 500;
+  font-size: 17px;
+  color: #396df2;
+  line-height: 24px;
+  text-decoration: none;
 }
 
 .about .about-skills #skill1 {
-    list-style-type: none;
-    margin-left: -30px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    padding: 20px 0;
+  list-style-type: none;
+  margin-left: -30px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 20px 0;
 }
 
 .about .about-skills #skill1 #selected {
-    padding-left: 50%;
+  padding-left: 50%;
 }
 
 .about .about-skills #skill1 ul {
-    list-style-type: none;
-    margin-top: 30px;
-    padding-left: 0;
-    padding-right: 9px;
+  list-style-type: none;
+  margin-top: 30px;
+  padding-left: 0;
+  padding-right: 9px;
 }
 
 .about .about-skills #skill1 ul li {
-    align-items: center;
-    border-radius: 8px;
-    background: #f7f7f9;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    margin: 07px 0;
+  align-items: center;
+  border-radius: 8px;
+  background: #f7f7f9;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 07px 0;
 }
 
 .about .about-skills #skill1 ul li img {
-    padding: 10px;
+  padding: 10px;
 }
 
 .about .about-skills #skill2 {
-    list-style-type: none;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    margin-left: -30px;
-    padding: 20px 0;
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: -30px;
+  padding: 20px 0;
 }
 
 .about .about-skills #skill2 #skill2-img {
-    padding-left: 50%;
+  padding-left: 50%;
 }
 
 .about .about-skills #skill3 {
-    list-style-type: none;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    margin-left: -30px;
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: -30px;
 }
 
 .about .about-skills #skill3 #skill3-img {
-    padding-left: 73%;
+  padding-left: 73%;
 }
 
 .about .about-skills .line {
-    border-top: 1px solid #dfe1e6;
-    margin-top: 20px;
+  border-top: 1px solid #dfe1e6;
+  margin-top: 20px;
 }
 
 footer {
-    background-image: url("images/contact-form-background.png");
-    background-repeat: no-repeat;
-    background-color: #6070ff;
-    background-size: cover;
-    border-top-left-radius: 100px;
-    margin-top: 7em;
-    justify-content: center;
+  background-image: url("images/contact-form-background.png");
+  background-repeat: no-repeat;
+  background-color: #6070ff;
+  background-size: cover;
+  border-top-left-radius: 100px;
+  margin-top: 7em;
+  justify-content: center;
 }
 
 .contact-form {
-    justify-content: center;
-    height: 750px;
-    margin-top: 20px;
-    padding: 0 25px 0 25px;
-
+  justify-content: center;
+  height: 750px;
+  margin-top: 20px;
+  padding: 0 25px 0 25px;
 }
 
 .contact-form #contact-me {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    margin-top: 80px;
-    color: #fff;
-    text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 80px;
+  color: #fff;
+  text-align: center;
 }
 
 .contact-form #contact-text {
-    text-align: center;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    color: #ebebff;
-    margin-top: 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  margin-top: 0;
 }
 
 .contact-form #form-data {
-    list-style: none;
-    padding: 0;
-    justify-content: center;
-    margin-left: 10%;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  margin-left: 10%;
 }
 
-.contact-form form .input-data+.input-data {
-    margin-top: 15px;
+.contact-form form .input-data + .input-data {
+  margin-top: 15px;
 }
 
 .contact-form input,
 textarea {
-    font: 17px "Poppins", sans-serif;
-    box-sizing: border-box;
-    border: 1px solid #cfd8dc;
-    border-radius: 8px;
-    width: 327px;
-    height: 48px;
+  font: 17px "Poppins", sans-serif;
+  box-sizing: border-box;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 327px;
+  height: 48px;
 }
 
 .contact-form textarea {
-    height: 170px;
+  height: 170px;
 }
 
 .contact-form .button {
-    font-family: "Poppins", sans-serif;
-    font-weight: 420;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
-    width: 140px;
-    height: 48px;
-    border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 420;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  width: 140px;
+  height: 48px;
+  border-radius: 8px;
 }
 
 ::placeholder {
-    /* Chrome, Firefox, Opera, Safari 10.1+ */
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 20px;
-    color: #172b4d;
-    padding: 10px;
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  padding: 10px;
 }
 
 ::-ms-input-placeholder {
-    /* Microsoft Edge */
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 20px;
+  /* Microsoft Edge */
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
 }
 
 :-ms-input-placeholder {
-    /* Internet Explorer 10-11 */
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 20px;
+  /* Internet Explorer 10-11 */
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
 }
 
 footer .footer-line {
-    width: 134px;
-    height: 5px;
-    background: #0d151e;
-    border-radius: 10px;
-    border: 1px solid #0d151e;
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
+  border: 1px solid #0d151e;
 }
