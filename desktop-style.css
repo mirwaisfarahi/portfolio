@@ -182,7 +182,14 @@
   }
 
   .works-section .project .project-details {
+    transition-duration: 1000ms;
+    transition-property: background;
     margin: 0;
+  }
+
+  .works-section .project .project-details:hover {
+    background: #6070ff;
+    color: #fff;
   }
 
   .about {
@@ -211,6 +218,13 @@
     justify-content: center;
     max-width: 200px;
     margin-top: 5%;
+    transition-duration: 1000ms;
+    transition-property: background;
+  }
+
+  .about .about-myself .about-details:hover {
+    background: #6070ff;
+    color: #fff;
   }
 
   .about .about-skills {
