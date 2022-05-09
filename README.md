@@ -4,7 +4,6 @@
 
 > This is a HTML/CSS based portfolio mobile version template. The template can be used as a portfolio to show your profile and achievments. 
 
-
 ## Built With
 
 - HTML
@@ -13,9 +12,9 @@
 - Visual Studio Code
 - Git & Github
 
-## Live Demo (if available)
+## Live Demo
 
-- https://mirwaisfarahi.github.io/
+- [Portfolio App Live Demo](https://mirwaisfarahi.github.io)
 
 ## Getting Started
 
