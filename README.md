@@ -4,7 +4,6 @@
 
 > This is a HTML/CSS based portfolio mobile version template. The template can be used as a portfolio to show your profile and achievments. 
 
-
 ## Built With
 
 - HTML
@@ -15,7 +14,7 @@
 
 ## Live Demo (if available)
 
-- https://mirwaisfarahi.github.io/
+- https://mirwaisfarahi.github.io
 
 ## Getting Started
 
