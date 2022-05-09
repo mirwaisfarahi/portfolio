@@ -12,9 +12,9 @@
 - Visual Studio Code
 - Git & Github
 
-## Live Demo (if available)
+## Live Demo
 
-- https://mirwaisfarahi.github.io
+- [Portfolio App Live Demo](https://mirwaisfarahi.github.io)
 
 ## Getting Started
 
