@@ -22,14 +22,16 @@
   }
 
   .navbar {
+    flex-direction: row;
     justify-content: space-between;
     background-color: #fff;
     margin: 0;
     padding: 0 10%;
   }
 
-  .logo {
+  .navbar .logo {
     padding: 20px;
+    margin-left: 0;
   }
 
   .nav-menu {
