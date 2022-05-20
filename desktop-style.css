@@ -184,9 +184,10 @@
   }
 
   .works-section .project .project-details {
-    transition-duration: 1000ms;
+    transition-duration: 100ms;
     transition-property: background;
     margin: 0;
+    cursor: pointer;
   }
 
   .works-section .project .project-details:hover {
