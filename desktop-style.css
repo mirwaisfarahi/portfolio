@@ -200,6 +200,10 @@
     overflow-y: auto;
   }
 
+  .modal-header {
+    margin-bottom: 0;
+  }
+
   .modal-header .modal-title {
     font-weight: 700;
     font-size: 40px;
@@ -250,7 +254,7 @@
 
   .modal-body #project-buttons > button {
     margin-top: 5%;
-    padding: 10px 10px;
+    padding: 10px 8px;
     border-radius: 6px;
     margin-right: 10px;
   }
