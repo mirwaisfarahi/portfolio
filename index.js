@@ -22,48 +22,33 @@ const projects = [
     project_id: 'project1',
     name: 'Tonic',
     experiance: ['CANOPY', 'Backend Dev', '2015'],
-    description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    languages: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    popuplanguage: ['html', 'css', 'javaScript', 'github', 'ruby', 'bootstrap'],
-    popDescription: 'Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum?',
-    image: 'images/Snapshoot-Portfolio-desktop.png',
+    description: 'Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum?',
+    languages: ['html', 'css', 'javaScript'],
+    image: 'images/snapshoot-portfolio-1.svg',
   },
   {
     project_id: 'project2',
     name: 'Multi-Post Stories',
-    experiance: ['FACEBOOK', 'Backend Dev', '2015'],
-    description:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    languages: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    popuplanguage: ['html', 'css', 'javaScript', 'github', 'ruby', 'bootstrap'],
-    popDescription:
-      'Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum?',
-    image: 'images/Snapshoot-Portfolio-desktop-2.png',
+    experiance: ['CANOPY', 'Backend Dev', '2015'],
+    description: 'Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum?',
+    languages: ['html', 'css', 'javaScript'],
+    image: 'images/snapshoot-portfolio-2.svg',
   },
   {
     project_id: 'project3',
-    name: 'Facebook 360',
-    experiance: ['Facebook', 'Backend Dev', '2015'],
-    description:
-      'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    languages: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    popuplanguage: ['html', 'css', 'javaScript', 'github', 'ruby', 'bootstrap'],
-    popDescription:
-      'Dolor ipsam molestiae assumenda nisi natus voluptatum Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum?',
-    image: 'images/Snapshoot-Portfolio-desktop3.jpg',
+    name: 'Tonic',
+    experiance: ['CANOPY', 'Backend Dev', '2015'],
+    description: 'Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum?',
+    languages: ['html', 'css', 'javaScript'],
+    image: 'images/snapshoot-portfolio-3.svg',
   },
   {
     project_id: 'project4',
-    name: 'Uber Navigation',
-    experiance: ['Uber', 'Backend Dev', '2015'],
-    description:
-      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    languages: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    popuplanguage: ['html', 'css', 'javaScript', 'github', 'ruby', 'bootstrap'],
-    popDescription:
-      'Dolor ipsam molestiae assumenda nisi natus voluptatum Dolor ipsam molestiae assumenda nisi natus voluptatum Dolor ipsam molestiae assumenda nisi natus voluptatum Dolor ipsam molestiae assumenda nisi natus voluptatum',
-    image: 'images/Snapshoot-Porfolio-desktop4.png',
+    name: 'Multi-Post Stories',
+    experiance: ['CANOPY', 'Backend Dev', '2015'],
+    description: 'Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum?',
+    languages: ['html', 'css', 'javaScript'],
+    image: 'images/snapshoot-portfolio-4.svg',
   },
 ];
 
@@ -88,14 +73,14 @@ function openModal(modal) {
                             <li class = "type"> ${projects[i].experiance[1]} </li> 
                             <li class = "type"> ${projects[i].experiance[2]} </li>
                           </ul>
-                          <img class = "modal-img" src="images/snapshoot-portfolio-3.svg" alt="">
+                          <img class = "modal-img" src="${projects[i].image}" alt="">
                           <div id = "project-desc">
-                            <p class = "description">${projects[i].popDescription}</p>
+                            <p class = "description">${projects[i].description}</p>
                             <div id = "description-subsection">
                               <ul id="technologies">
-                                <li class = "tech-type">html</li>
-                                <li class = "tech-type">css</li>
-                                <li class = "tech-type">javascript</li>
+                                <li class = "tech-type">${projects[i].languages[0]}</li>
+                                <li class = "tech-type">${projects[i].languages[1]}</li>
+                                <li class = "tech-type">${projects[i].languages[2]}</li>
                               </ul>
                               <div id = 'project-buttons'>
                                   <button>See Live <img src = 'images/live-icon.png'></button>
