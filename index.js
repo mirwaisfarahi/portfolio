@@ -143,3 +143,10 @@ form.addEventListener('submit', (e) => {
     emailError.classList.add('active');
   }
 });
+
+// Preserve Data in the browser
+
+const fullName = document.getElementById('name');
+const email = document.getElementById('email');
+const message = document.getElementById('textarea');
+const button = document.getElementById('submit-button');
