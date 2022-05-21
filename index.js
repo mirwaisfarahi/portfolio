@@ -143,3 +143,35 @@ form.addEventListener('submit', (e) => {
     emailError.classList.add('active');
   }
 });
+
+// preserse form data in local storage
+const full_name = document.getElementById('full_name');
+const email_address = document.getElementById('email_address');
+const user_message = document.getElementById('user_message');
+const btn = document.getElementById('btn');
+
+function storeData() {
+  const nameValue = full_name.value;
+  const emailValue = email_address.value;
+  const messageValue = user_message.value;
+
+  const user = {
+    nameValue,
+    emailValue,
+    messageValue,
+  };
+
+  if (nameValue && emailValue && messageValue) {
+    const collectedData = JSON.stringify(user);
+    localStorage.setItem('user', collectedData);
+  }
+}
+
+window.addEventListener('load', () => {
+  const parseData = JSON.parse(localStorage.getItem('user'));
+  full_name.value = parseData.nameValue;
+  email_address.value = parseData.emailValue;
+  user_message.value = parseData.messageValue;
+});
+
+btn.addEventListener('click', storeData);
