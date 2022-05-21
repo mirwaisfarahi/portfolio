@@ -145,15 +145,15 @@ form.addEventListener('submit', (e) => {
 });
 
 // preserse form data in local storage
-const full_name = document.getElementById('full_name');
-const email_address = document.getElementById('email_address');
-const user_message = document.getElementById('user_message');
+const fullName = document.getElementById('full_name');
+const emailAddress = document.getElementById('email_address');
+const userMessage = document.getElementById('user_message');
 const btn = document.getElementById('btn');
 
 function storeData() {
-  const nameValue = full_name.value;
-  const emailValue = email_address.value;
-  const messageValue = user_message.value;
+  const nameValue = fullName.value;
+  const emailValue = emailAddress.value;
+  const messageValue = userMessage.value;
 
   const user = {
     nameValue,
@@ -169,9 +169,9 @@ function storeData() {
 
 window.addEventListener('load', () => {
   const parseData = JSON.parse(localStorage.getItem('user'));
-  full_name.value = parseData.nameValue;
-  email_address.value = parseData.emailValue;
-  user_message.value = parseData.messageValue;
+  fullName.value = parseData.nameValue;
+  emailAddress.value = parseData.emailValue;
+  userMessage.value = parseData.messageValue;
 });
 
 btn.addEventListener('click', storeData);
