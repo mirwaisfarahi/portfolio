@@ -23,32 +23,36 @@ const projects = [
     name: 'Tonic',
     experiance: ['CANOPY', 'Backend Dev', '2015'],
     description: 'Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum?',
-    languages: ['html', 'css', 'javaScript'],
+    technologies: ['html', 'css', 'javaScript'],
     image: 'images/snapshoot-portfolio-1.svg',
+    link: ['https://mirwaisfarahi.github.io/', 'https://github.com/mirwaisfarahi'],
   },
   {
     project_id: 'project2',
     name: 'Multi-Post Stories',
     experiance: ['CANOPY', 'Backend Dev', '2015'],
     description: 'Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum?',
-    languages: ['html', 'css', 'javaScript'],
+    technologies: ['html', 'css', 'javaScript'],
     image: 'images/snapshoot-portfolio-2.svg',
+    link: ['https://mirwaisfarahi.github.io/', 'https://github.com/mirwaisfarahi'],
   },
   {
     project_id: 'project3',
     name: 'Tonic',
     experiance: ['CANOPY', 'Backend Dev', '2015'],
     description: 'Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum?',
-    languages: ['html', 'css', 'javaScript'],
+    technologies: ['html', 'css', 'javaScript'],
     image: 'images/snapshoot-portfolio-3.svg',
+    link: ['https://mirwaisfarahi.github.io/', 'https://github.com/mirwaisfarahi'],
   },
   {
     project_id: 'project4',
     name: 'Multi-Post Stories',
     experiance: ['CANOPY', 'Backend Dev', '2015'],
     description: 'Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum? Dolor ipsam molestiae assumenda nisi natus voluptatum?',
-    languages: ['html', 'css', 'javaScript'],
+    technologies: ['html', 'css', 'javaScript'],
     image: 'images/snapshoot-portfolio-4.svg',
+    link: ['https://mirwaisfarahi.github.io/', 'https://github.com/mirwaisfarahi'],
   },
 ];
 
@@ -61,7 +65,7 @@ function openModal(modal) {
 
   const modals = document.querySelectorAll('.modal');
 
-  for (let i = 0; i <= projects.length; i += 1) {
+  for (let i = 0; i < projects.length; i += 1) {
     if (projects[i].project_id === modal.id) {
       modals.forEach((modal) => {
         const htmlBody = document.querySelector('body');
@@ -78,16 +82,16 @@ function openModal(modal) {
                             <p class = "description">${projects[i].description}</p>
                             <div id = "description-subsection">
                               <ul id="technologies">
-                                <li class = "tech-type">${projects[i].languages[0]}</li>
-                                <li class = "tech-type">${projects[i].languages[1]}</li>
-                                <li class = "tech-type">${projects[i].languages[2]}</li>
-                              </ul>
-                              <div id = 'project-buttons'>
-                                  <button>See Live <img src = 'images/live-icon.png'></button>
-                                  <button>See Source <img src = 'images/github-icon.png'></button>
-                              </div>
+                               ${projects[i].technologies.map((technology) => `
+                                <li class = "tech-type">${technology}</li>
+                                `)}
+                            </ul >
+                            <div id='project-buttons'>
+                              <a class = "link" href="${projects[i].link[0]}" target="_blank">See Live <img src='images/live-icon.png'></a>
+                              <a class = "link" href="${projects[i].link[1]}" target="_blank">See Source <img src='images/github-icon.png'></a>
                             </div>
-                          </div>`;
+                            </div >
+                          </div > `;
       });
 
       modal.classList.add('active');
