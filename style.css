@@ -656,3 +656,17 @@ footer .footer-line {
   border-radius: 10px;
   border: 1px solid #0d151e;
 }
+
+.contact-form .error {
+  display: none;
+}
+
+.contact-form .active {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  color: rgb(241, 233, 233);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
