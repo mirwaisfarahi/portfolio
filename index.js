@@ -133,11 +133,13 @@ closeModalButtons.forEach((button) => {
 // form validation
 
 const form = document.querySelector('#contact_form');
+const emailError = document.querySelector('#emailError');
 const email = document.querySelector('#email_address');
 
 form.addEventListener('submit', (e) => {
   if (!(email.value.match(/^[a-z@.0-9-_]*$/))) {
     e.preventDefault();
     email.style.border = '2px solid red';
+    emailError.classList.add('active');
   }
 });
